@@ -1,0 +1,48 @@
+{
+  "name": "poetic-melodies",
+  "version": "1.0.0",
+  "description": "Bengali-English poetry, music and editorial publishing prototype",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "playwright test",
+    "test:e2e": "playwright test",
+    "format": "prettier --write app components lib tests public/sw.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrittionline/Poetic-Melodies.git"
+  },
+  "keywords": [],
+  "author": "Sohel Azad",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/abrittionline/Poetic-Melodies/issues"
+  },
+  "homepage": "https://github.com/abrittionline/Poetic-Melodies#readme",
+  "private": true,
+  "dependencies": {
+    "@fontsource/noto-sans-bengali": "^5.3.0",
+    "@fontsource/noto-serif-bengali": "^5.3.0",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
